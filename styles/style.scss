@@ -55,22 +55,20 @@ body {
 
 
 @media screen and (max-width: 700px) {
-    /* on fait apparaitre le logo */
+
     .logoMenuImg {
         display: block;
     }
-    /* pour ne plus display flex les éléments */
+
     .navbar {
         display: block;
     }
-    /* Pour espacer, fait à la fin */
+
     .items:nth-child(1){
         padding-top: 20px;
     }
     .items {
         background: $blandGris;
-        /* background: green; */
-        /* pour la marge plus haut */
         margin-right: 0;
         padding: 10px 20px;
         display: block;
@@ -93,7 +91,7 @@ body {
 // Accueil 
 
 .accueil {
-    // a retrecir
+ 
     height: 800px;
     width: 100%;
     background: $sombre;
@@ -136,7 +134,7 @@ body {
 }
 @media screen and (max-width: 760px) {
     .accueil {
-        // a retrecir
+ 
         height: 600px;
     }
     .accueil h1 {
@@ -148,7 +146,7 @@ body {
 }
 @media screen and (max-width: 550px) {
     .accueil {
-        // a retrecir
+
         height: 500px;
         align-items: flex-start;
     }
